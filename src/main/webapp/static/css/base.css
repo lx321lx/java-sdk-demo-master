@@ -1,0 +1,48 @@
+.container{
+    margin:20px auto;
+}
+.form{
+    width:600px;
+}
+.form .glyphicon{
+    right:20px;
+    display:none;
+}
+.form.has-error .glyphicon-remove,.form.has-success .glyphicon-ok{
+    display:block;
+}
+.orange{
+    color:orange;
+}
+.margin-20 {
+    margin: 20px;
+}
+.margin-right-20 {
+    margin-right: 20px;
+}
+.label-info{
+    color:#fff;
+}
+.label{
+    cursor: pointer;
+    padding:6px 12px;
+}
+.label-bordered{
+    background-color: #fff;
+    color:#777;
+    border:1px solid #ccc;
+}
+.label-bordered.active{
+    border-color:#F60;
+}
+
+.label-unselect {
+    border: 1px solid #777;
+    background-color: #fff;
+    color: #777;
+}
+
+.label-select {
+    border: 1px solid #337ab7;
+    background-color: #337ab7;
+}
