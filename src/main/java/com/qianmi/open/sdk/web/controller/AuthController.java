@@ -28,7 +28,7 @@ public class AuthController extends BaseController {
     @RequestMapping("/auth")
     public String showPage(Model model) {
         model.addAttribute("appKey", APP_KEY);
-        return "auth";
+        return "auth2222";
     }
 
     /**
